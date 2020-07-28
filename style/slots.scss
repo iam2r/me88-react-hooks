@@ -1,0 +1,380 @@
+@import "./vars.scss";
+#root {
+  .btn-sign-up,
+  .btn-deposit,
+  .reload-box {
+    background: $slotsMain !important;
+  }
+  .account-info {
+    > span {
+      color: $slotsMain !important;
+    }
+  }
+
+  .slots-banner {
+    height: 500px;
+    background: url(../assets/images/slots/banner.png) no-repeat center top;
+    background-size: 1936px 500px;
+
+    .container {
+      position: relative;
+      width: 100%;
+    }
+    .bottom-item {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%) translateX(-30px);
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      // width: 100%;
+      .side {
+        width: 180px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        > span {
+          &:nth-child(1) {
+            font-size: 14px;
+            color: rgba(162, 170, 189, 0.5);
+          }
+          &:nth-child(2) {
+            font-size: 18px;
+            color: rgba(255, 71, 75, 0.5);
+            margin-top: 8px;
+          }
+        }
+      }
+      .center {
+        width: 394px;
+        height: 183px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+        > span {
+          &:nth-child(1) {
+            white-space: nowrap;
+            font-size: 16px;
+            font-family: "Nunito-Bold";
+            color: rgba(161, 170, 188, 1);
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 5px;
+          }
+          &:nth-child(2) {
+            font-size: 36px;
+            font-weight: 600;
+            color: rgba(253, 213, 93, 1);
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .slots-games {
+    min-height: 1064px;
+    background: #1d1d1d;
+    .slots-games-items {
+      display: flex;
+      padding-top: 24px;
+      .brand-list {
+        width: 215px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        background: #282828;
+        padding-left: 36px;
+        li {
+          display: flex;
+          height: 71px;
+          align-items: center;
+          &:not(:last-child) {
+            border-bottom: 1px solid rgba(77, 79, 85, 0.4);
+          }
+          .icon-box {
+            width: 45px;
+            position: relative;
+            > i {
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              left: 0;
+              &.on {
+                display: none;
+              }
+            }
+          }
+          font-size: 18px;
+          color: rgba(162, 170, 189, 0.5);
+          transition: color 0.3s;
+          cursor: pointer;
+          &.on,
+          &:hover {
+            color: rgba(252, 0, 0, 1);
+            .icon-box {
+              > i {
+                display: none;
+                &.on {
+                  display: inline-block;
+                }
+              }
+            }
+          }
+          &.on {
+            pointer-events: none;
+          }
+        }
+      }
+      .slots-games-right {
+        width: 1090px;
+        margin-left: 45px;
+        padding-top: 22px;
+        .type-nav-box {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 20px;
+          .type-list {
+            display: flex;
+            align-items: center;
+            transform: translateX(-10px);
+            li {
+              height: 22px;
+              padding: 0 34px;
+              font-size: 18px;
+              color: rgba(162, 170, 189, 0.5);
+              transition: color 0.3s;
+              &:not(:last-child) {
+                border-right: 1px solid #45484d;
+              }
+              cursor: pointer;
+              &.on,
+              &:hover {
+                color: rgba(252, 0, 0, 1);
+              }
+              &.on {
+                pointer-events: none;
+              }
+            }
+          }
+          .search-box {
+            width: 210px;
+            height: 39px;
+            border: 1px solid rgba(64, 68, 77, 1);
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 18px;
+            .icon-search {
+              cursor: pointer;
+            }
+
+            &:hover {
+              .icon-search {
+              }
+            }
+            input {
+              width: 150px;
+              border: none;
+              background: transparent;
+              color: rgba(162, 170, 189, 0.5);
+              font-size: 18px;
+              @include placeHolder(rgba(162, 170, 189, 0.5), 18px);
+            }
+          }
+        }
+        .type-game-list-box {
+          .more-games {
+            display: inline-block;
+            font-size: 18px;
+            color: #eb1c22;
+            padding-left: 17px;
+            cursor: pointer;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          .game-content {
+            li {
+              width: 201px;
+              height: 177px;
+              margin-bottom: 25px;
+              .img-box {
+                width: 100%;
+                height: 131px;
+                .hover-box {
+                  > span {
+                    width: 99px;
+                    height: 30px;
+                    font-size: 16px;
+                  }
+                }
+              }
+              &:not(:nth-child(5n)) {
+                margin-right: 21px;
+              }
+              > p {
+                height: 46px;
+                font-size: 16px;
+                i {
+                  width: 24px;
+                  height: 21px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  #root {
+    .slots-banner {
+      height: 706px;
+      background-size: 2734px 706px;
+      .bottom-item {
+        transform: translateX(-50%) translateX(-42px);
+        .center {
+          width: 562px;
+          height: 256px;
+          > span {
+            &:nth-child(1) {
+              font-size: 23px;
+              transform: translateX(-50%) translateX(-2px);
+            }
+            &:nth-child(2) {
+              font-size: 50px;
+              margin-bottom: 18px;
+            }
+          }
+        }
+        .side {
+          width: 256px;
+          height: 114px;
+          > span {
+            &:nth-child(1) {
+              font-size: 20px;
+            }
+            &:nth-child(2) {
+              font-size: 25px;
+              // margin-bottom: 18px;
+            }
+          }
+        }
+      }
+    }
+    .slots-games {
+      min-height: 1589px;
+      .container {
+        padding-left: 169px;
+      }
+      .slots-games-items {
+        padding-top: 30px;
+
+        .brand-list {
+          height: 1308px;
+          width: 305px;
+          border-bottom-left-radius: 14px;
+          border-top-left-radius: 14px;
+          padding-left: 53px;
+          li {
+            height: 110px;
+            font-size: 25px;
+            .icon-box {
+              width: 63px;
+              transform-origin: left center;
+              transform: translateY(-50%) scale(1.4);
+            }
+          }
+        }
+        .slots-games-right {
+          margin-left: 52px;
+          width: 1356px;
+          padding-top: 35px;
+          .type-nav-box {
+            margin-bottom: 34px;
+            .type-list {
+              li {
+                height: 30px;
+                padding: 0 36px;
+                font-size: 25px;
+              }
+            }
+            .search-box {
+              width: 264px;
+              height: 49px;
+              border-radius: 6px;
+              border: forcePX(1px) solid #40444d;
+              input {
+                width: 200px;
+
+                color: rgba(162, 170, 189, 0.5);
+                font-size: 25px;
+                @include placeHolder(rgba(162, 170, 189, 0.5), 25px);
+              }
+            }
+          }
+          .type-game-list-box {
+            .game-content {
+              li {
+                width: 311px;
+                height: 276px;
+                margin-right: 37px;
+                margin-bottom: 33px;
+                .img-box {
+                  width: 311px;
+                  height: 207px;
+                  .hover-box {
+                    span {
+                      width: 154px;
+                      height: 47px;
+                      font-size: 25px;
+                    }
+                  }
+                }
+
+                &:not(:nth-child(5n)) {
+                  margin-right: 37px;
+                }
+                &:nth-child(4n) {
+                  margin-right: 0;
+                }
+
+                > p {
+                  height: 72px;
+                  font-size: 25px;
+                  padding-left: 32px;
+                  padding-right: 20px;
+                  padding-bottom: 0;
+                  > i {
+                    width: 39px;
+                    height: 34px;
+                  }
+                  &::before {
+                    height: 9px;
+                  }
+
+                  &::after {
+                    height: 10px;
+                  }
+                }
+              }
+            }
+            .more-games {
+              font-size: 23px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

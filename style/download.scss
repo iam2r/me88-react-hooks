@@ -1,0 +1,279 @@
+@import "./vars.scss";
+
+.download-panel {
+  height: 822px;
+  background: url(../assets/images/download/bannner1.png) no-repeat center top;
+  background-size: 2000px 820px;
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 56px;
+    padding-right: 84px;
+  }
+
+  .download-list {
+    width: 640px;
+    .download-nav {
+      width: 100%;
+      height: 36px;
+      background: #282a2c;
+      border-radius: 5px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      li {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(162, 170, 189, 1);
+        font-size: 16px;
+        transition: color 0.3s, background 0.3s,border 0.3s;
+        cursor: pointer;
+        font-weight: 600;
+        > span {
+          margin-top: 3px;
+        }
+        &.on,
+        &:hover {
+          color: black;
+          background: #ff4e00;
+        }
+        &.on {
+          pointer-events: none;
+        }
+        > i {
+          margin-right: 8px;
+        }
+      }
+    }
+    .download-items {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      padding-top: 29px;
+      .download-item {
+        width: 200px;
+        height: 184px;
+        border-radius: 10px;
+        background: #1c1c1c;
+        margin-bottom: 24px;
+        &:not(:nth-child(3n)) {
+          margin-right: 20px;
+        }
+ 
+        .img {
+          width: 100%;
+          height: 116px;
+          position: relative;
+          img {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        &:nth-child(6){
+            .img{
+                img{
+                    width: 209px;
+                    height: 122px;
+                }
+            }
+        }
+        &:nth-child(8){
+            .img{
+                img{
+                    width: auto;
+                    height: 100%;
+                }
+            }
+        }
+        .other {
+          width: 100%;
+          height: 68px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+
+         
+          .tools {
+            height: 30px;
+            display: flex;
+            > span {
+              width: 50%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 14px;
+              color: rgba(255, 255, 255, 0.7);
+              cursor: pointer;
+              transition: background 0.3s, color 0.3s;
+
+              &:nth-child(1) {
+                background: #44464b;
+              }
+              &:nth-child(2) {
+                background: #2d2f33;
+                position: relative;
+                .qr-box {
+                  border-top-left-radius: 10px;
+                  border-top-right-radius: 10px;
+                  transition: transform 0.3s, opacity 0.3s;
+                  transform-origin: center bottom;
+                  transform: rotateX(90deg);
+                  opacity: 0;
+                  position: absolute;
+                  width: 200%;
+                  height: 116px;
+                  right: 0;
+                  top: -116px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  background: rgba(0, 0, 0, 0.8);
+                  img {
+                    width: 76px;
+                    height: 76px;
+                  }
+                  &:hover {
+                    transform: rotateX(0);
+                    opacity: 1;
+                  }
+                }
+                &:hover .qr-box {
+                  transform: rotateX(0);
+                  opacity: 1;
+                
+                }
+              }
+
+              &:hover {
+                color: #000000;
+                background: #ff4e00;
+                font-family: "Nunito-SemiBold";
+              }
+            }
+          }
+          > span {
+            color: rgba(162, 170, 189, 1);
+            height: 36px;
+            font-size: 16px;
+            font-family: "Nunito-Bold";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            &::before,
+            &::after {
+              transition: background 0.5s;
+              content: "";
+              position: absolute;
+              background: #333539
+            }
+            &::before {
+              height: 3px;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+            }
+            &::after {
+              width: 83px;
+              height: 4px;
+              left: 57px;
+              bottom: 2px;
+              transform: perspective(0.5em) rotateX(8deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px){
+  .download-panel{
+    height: 1160px;
+    background-position: -320px 0;
+    background-size: 2750px 1128px;
+    .container{
+      padding-right: 170px;
+      padding-top: 82px;
+      .download-list{
+        width: 910px;
+        .download-nav{
+          height: 50px;
+          border-radius: 7px;
+          li{
+            font-size: 23px;
+          }
+        }
+        .download-items{
+          padding-top: 40px;
+          .download-item{
+            margin-bottom: 38px;
+            width: 285px;
+            height: 255px;
+            &:not(:nth-child(3n)){
+              margin-right: 26px;
+            }
+            &:nth-child(6){
+              .img{
+                img{
+                  width: 300px;
+                  height: 170px;
+                }
+              }
+            }
+            .img{
+              // width:286px;
+              height:162px;
+            }
+            .other{
+              height: 93px;
+              >span{
+                font-size: 23px;
+                &::before{
+                  height: 4px;
+                }
+                &::after{
+                  height: 6px;
+                  bottom: 2px;
+                  left: 80px;
+                  width: 120px;
+                }
+              }
+              .tools{
+                height: 42px;
+                >span{
+                  font-size:20px;
+                  &:nth-child(2){
+                    .qr-box{
+                      height:166px;
+                      top: -166px;
+                      img{
+                        width: 108px;
+                        height: 106px;
+                      }
+                    }
+                  }
+                }
+              }
+              >span{
+                height: 51px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

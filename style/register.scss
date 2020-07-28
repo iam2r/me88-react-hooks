@@ -1,0 +1,377 @@
+@import "./vars.scss";
+
+.register-panel {
+  height: 894px;
+  background: url(../assets/images/background-register.png) no-repeat center top;
+  background-size: 2000px 792px;
+  padding-top: 93px;
+  .register-box {
+    width: 900px;
+    height: 655px;
+    background: rgba(229, 229, 229, 1);
+    box-shadow: 1px 5px 10px 0px rgba(0, 1, 1, 0.75);
+    border-radius: 15px;
+    margin: 0 auto;
+    overflow: hidden;
+    .title {
+      height: 60px;
+      background: rgba(255, 78, 0, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 800;
+      color: rgba(255, 255, 255, 1);
+      line-height: 18px;
+      position: relative;
+      >i{
+          position: absolute;
+          right: 15px;
+          top: 13px;
+          cursor: pointer;
+      }
+    }
+
+    .content{
+        padding-top: 36px;
+        .steps{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            ul{
+                width: 716px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li{
+                    position: relative;
+                    height: 18px;
+                    line-height: 18px;
+                    >span{
+                        white-space: nowrap;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%,-50%);
+                        font-size: 14px;
+                        transition: color 0.3s;
+                        &.on{
+                            color: #ff4e00;
+                        }
+                    }
+                }
+            }
+            .step-bg{
+                margin-top: 5px;
+                width: 762px;
+                height: 45px;
+                background-size: 100% 100%;
+                background-image: url(../assets/images/step1.png);
+                &[data-index='1']{
+                    background-size: 100% 100%;
+                    background-image: url(../assets/images/step2.png);
+                }
+                &[data-index='2']{
+                    background-size: 100% 100%;
+                    background-image: url(../assets/images/step3.png);
+                }
+            }
+        }
+        .step-content{
+            padding-top: 50px;
+            position: relative;
+            .input,.btn-next{
+                width:370px;
+                height:50px;
+                background:rgba(1,27,67,0);
+                margin-bottom: 16px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-radius:9px 9px 9px 9px;
+                &.btn-next{
+                    justify-content: center;
+                    cursor: pointer;
+                    background: #ff4d00;
+                    font-family: "Nunito-Black";
+                    font-size: 20px;
+                    font-weight: 900;
+                    margin-top: 81px;
+                }
+                // overflow: hidden;
+                >input{
+                    border-radius:9px 9px 9px 9px;
+                    width: 100%;
+                    height: 100%;
+                    background: transparent;
+                    border: none;
+                    border:1px solid rgba(25, 25, 25, 0.2);
+                    transition:  border 0.3s ,background 0.3s;
+                    font-size: 20px;
+                    color:rgba(1,27,67,0.6);
+                    padding: 0 22px;
+                    @include placeHolder(rgba(1,27,67,0.6),20px);
+                    &.short{
+                        width: 250px;
+                    }
+                    &:focus{
+                        background: #f1f1f1;
+                        border:1px solid #ff4d00;
+                    }
+                }
+
+                >select{
+                    &::-ms-expand {
+                        display: none;
+                    }
+                    appearance:none;
+                    height: 100%;
+                    border-radius:9px 9px 9px 9px;
+                    background: transparent;
+                    border: none;
+                    border:1px solid rgba(25, 25, 25, 0.2);
+                    color: #000;
+                    font-size: 20px;
+                    padding: 0 22px;
+                    &.phone{
+                        width: 108px;
+                        padding-left: 17px;
+                    }
+                    &.currency{
+                        width: 250px;
+                    }
+                }
+
+                >.item-title{
+                    width: 108px;
+                    height: 100%;
+                    border-radius:9px 9px 9px 9px;
+                    font-size: 20px;
+                    color:rgba(1,27,67,0.6);
+                    white-space: nowrap;
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .text-p{
+              
+                font-size:14px;
+                line-height: 18px;
+                >span{
+                    cursor: pointer;
+                    color: #ff4d00;
+                }
+            }
+
+            .member-benefits{
+                .benefits-title{
+                    font-family: "Nunito-Black";
+                    font-size: 30px;
+                    color: #FF4D00;
+                }
+                >ul{
+                    font-size: 18px;
+                    li{
+                        line-height: 30px;
+                    }
+                }
+
+                .text-p{
+                    margin-top: 135px;
+                }
+
+              
+            }
+            >div{
+                display: flex;
+                width: 100%;
+                height: 492px;
+                position: absolute;
+                left: 0;
+                top: 50px;
+                &.step3-box{
+                    padding-top: 20px;
+                    width: 100%;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 0 auto;
+                    text-align: center;
+                    .btn-next{
+                        margin-top: 0;
+                    }
+                    >div{
+                        margin-top: 31px;
+                        margin-bottom: 46px;
+                        >p{
+                            font-family: "Arial";
+                            line-height: 20px;
+                            &:nth-child(1){
+                                font-size: 24px;
+                            }
+                            &:nth-child(2){
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .text-p{
+                        font-family: "Arial";
+                        margin-top: 10px;
+                    }
+                   
+                }
+                form{
+                    margin-left: 58px;
+                    margin-right: 56px;
+                }
+            }
+        }
+    }
+  }
+}
+
+
+@media (max-width: 1025px) {
+    .register-panel{
+        height: 1300px;
+        .register-box{
+            width:1347px;
+            height:981px;
+            border-radius: 22px;
+            .title{
+                height: 90px;
+                font-size: 30px;
+                line-height: 26px;
+                .icon-close3{
+                    top: 19px;
+                    right: 22px;
+                }
+            }
+            .content{
+                padding-top: 61px;
+                .steps{
+                    ul{
+                        width: 1040px;
+                        li{
+                            >span{
+                                font-size: 20px;
+                                line-height: 26px;
+                            }
+                         
+                        }
+                    }
+                    .step-bg{
+                        width:1140px;
+                        height:67px;
+                    }
+                }
+                .step-content{
+                    .input,.btn-next{
+                        width:553px;
+                        height:74px;
+                        border-radius:14px 14px 14px 14px;
+                        margin-bottom: 24px;
+                        &.btn-next{
+                            margin-top: 131px;
+                            font-size: 30px;
+                        }
+                        // overflow: hidden;
+                        >input{
+                            border-radius:14px 14px 14px 14px;
+                     
+                            border:forcePX(1px) solid rgba(25, 25, 25, 0.2);
+                
+                            font-size: 30px;
+                            padding: 0 34px;
+                            @include placeHolder(rgba(1,27,67,0.6),30px);
+                            &.short{
+                                width: 374px;
+                            }
+                            &:focus{
+                              
+                                border:forcePX(1px) solid #ff4d00;
+                            }
+                        }
+        
+                        >select{
+                          
+                            border-radius:14px 14px 14px 14px;
+                            border:forcePX(1px) solid rgba(25, 25, 25, 0.2);
+                            font-size: 30px;
+                            padding: 0 34px;
+                            &.phone{
+                                width: 162px;
+                            }
+                            &.currency{
+                                width: 374px;
+                            }
+                        }
+        
+                        >.item-title{
+                            width: 162px;
+                           
+                            font-size: 30px;
+                          
+                        }
+                    }
+                 
+                    .member-benefits{
+                        .benefits-title{
+                            font-size: 45px;
+                        }
+                        >ul{
+                            font-size: 26px;
+                            li{
+                                line-height: 52px;
+                            }
+                          
+                        }
+                        .text-p{
+                            font-size:20px;
+                            line-height:26px;
+                            width: 547px;
+                            margin-top: 185px;
+                            br{
+                                display: none;
+                            }
+                        }
+                    }
+
+                    >div{
+                        top: 75px;
+                        form{
+                            margin-left: 86px;
+                            margin-right: 85px;
+                        }
+                        &.step3-box{
+                            >div{
+                                margin-top: 48px;
+                                margin-bottom: 69px;
+                                >p{
+                                   
+                                    &:nth-child(1){
+                                        font-size:35px;
+                                        line-height:40px;
+                                      
+                                    }
+                                    &:nth-child(2){
+                                        font-size:20px;
+                                        line-height:25px;
+                                    }
+                                }
+                            }
+                            .text-p{
+                                font-size: 20px;
+                                line-height: 26px;
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,78 @@
+$homeMain: #ff4e00;
+$slotsMain: #eb1c22;
+$casinoMain: #f3c301;
+@function forcePX($px) {
+  @return ($px / 1px) * 1PX;
+}
+
+@mixin placeHolder($color,$fontSize){
+  &::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
+    transition: color 0.3s;
+    color: $color;
+    font-size: $fontSize;
+  }
+  &:-moz-placeholder { /* Mozilla Firefox 4 to 18 适配火狐 */
+      transition: color 0.3s;
+      color: $color;
+      font-size: $fontSize;
+  }
+  &::-moz-placeholder { /* Mozilla Firefox 19+ 适配火狐 */
+      transition: color 0.3s;
+      color: $color;
+      font-size: $fontSize;
+  }
+  &:-ms-input-placeholder { /* Internet Explorer 10+  适配ie*/
+      transition: color 0.3s;
+      color: $color;
+      font-size: $fontSize;
+  }
+}
+
+@mixin border($width: 1px, $border-color: #999, $border-radius: initial) {
+  position: relative;
+
+  /* 默认 */
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: forcePX($width) solid $border-color;
+    /* no */
+    border-radius: $border-radius;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* 设备像素比为 2 */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2) {
+    &:after {
+      width: 200%;
+      height: 200%;
+      transform: scale(0.5);
+      transform-origin: left top;
+    }
+  }
+
+  /* 设备像素比为 3 */
+  @media only screen and (-webkit-min-device-pixel-ratio: 3),
+    only screen and (min-device-pixel-ratio: 3) {
+    &:after {
+      width: 300%;
+      height: 300%;
+      transform: scale(0.333333);
+      transform-origin: left top;
+    }
+  }
+}
+
+.common-title {
+  font-size: 25px;
+  font-family: "Nunito-Black";
+  font-weight: 900;
+  line-height: 110px;
+}
+
+

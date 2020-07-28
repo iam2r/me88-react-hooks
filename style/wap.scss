@@ -1,0 +1,3118 @@
+@import "./vars.scss";
+
+.icon-logo {
+  width: 216px;
+  height: 54px;
+}
+
+.icon-reload {
+  width: 44px;
+  height: 44px;
+}
+
+.icon-restore {
+  width: 50px;
+  height: 58px;
+}
+
+.icon-pagcor {
+  height: 47px;
+  width: 210px;
+}
+.icon-godaddy {
+  height: 44px;
+  width: 227px;
+}
+.icon-iovation {
+  width: 200px;
+  height: 40px;
+}
+.icon-global {
+  width: 72px;
+  height: 71px;
+}
+.icon-itechlab {
+  width: 72px;
+  height: 68px;
+}
+.icon-payouts {
+  width: 140px;
+  height: 49px;
+}
+
+.icon-bmm {
+  width: 94px;
+  height: 28px;
+}
+
+.icon-fb,
+.icon-youtube {
+  width: 72px;
+  height: 72px;
+}
+
+.icon-logo-footer {
+  width: 135px;
+  height: 34px;
+}
+.icon-close3 {
+  width: 79px;
+  height: 79px;
+}
+
+.icon-logo2 {
+  width: 499px;
+  height: 126px;
+}
+.icon-love-off,
+.icon-love-on {
+  width: 42px;
+  height: 36px;
+}
+.icon-cmd368 {
+  width: 208px;
+  height: 41px;
+}
+.icon-maxbet {
+  width: 270px;
+  height: 65px;
+}
+.icon-betradar {
+  width: 274px;
+  height: 38px;
+}
+.icon-android {
+  width: 53px;
+  height: 62px;
+}
+.icon-ios {
+  width: 49px;
+  height: 60px;
+}
+
+.icon-arrow-transfer {
+  display: inline-block;
+  width: 61px;
+  height: 61px;
+  background-image: url("../assets/images/mobile/transfer_arrow.png");
+  background-size: 100% 100%;
+}
+.icon-close-transfer {
+  display: inline-block;
+  width: 61px;
+  height: 61px;
+  background-image: url("../assets/images/mobile/close.png");
+  background-size: 100% 100%;
+}
+
+.icon-transfer-btn {
+  display: inline-block;
+  width: 53px;
+  height: 57px;
+  background-image: url("../assets/images/mobile/transfer_btn.png");
+  background-size: 100% 100%;
+}
+
+.icon-whatsapp {
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+  background-image: url("../assets/images/mobile/whatsapp.png");
+  background-size: 100% 100%;
+}
+
+.icon-wechat {
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+  background-image: url("../assets/images/mobile/wechat.png");
+  background-size: 100% 100%;
+}
+
+.icon-skype {
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+  background-image: url("../assets/images/mobile/skype.png");
+  background-size: 100% 100%;
+}
+
+.icon-livechat {
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+  background-image: url("../assets/images/mobile/live chat-2.png");
+  background-size: 100% 100%;
+}
+
+.icon-wap-home {
+  display: inline-block;
+  width: 83px;
+  height: 77px;
+  background-image: url("../assets/images/mobile/navbar/home.png");
+  background-size: 100% 100%;
+}
+
+.icon-wap-funds {
+  display: inline-block;
+  width: 83px;
+  height: 74px;
+  background-image: url("../assets/images/mobile/navbar/fund.png");
+  background-size: 100% 100%;
+}
+
+
+.icon-wap-promos {
+  display: inline-block;
+  width: 79px;
+  height: 81px;
+  background-image: url("../assets/images/mobile/navbar/promo.png");
+  background-size: 100% 100%;
+}
+.icon-wap-livechat {
+  display: inline-block;
+  width: 76px;
+  height: 81px;
+  background-image: url("../assets/images/mobile/navbar/live_chat.png");
+  background-size: 100% 100%;
+}
+.icon-wap-account {
+  display: inline-block;
+  width: 80px;
+  height: 79px;
+  background-image: url("../assets/images/mobile/navbar/my_account.png");
+  background-size: 100% 100%;
+}
+
+
+.icon-hover-box{
+  &.on,&:hover{
+    .icon-wap-home {
+     
+      background-image: url("../assets/images/mobile/navbar/home/home.png");
+      background-size: 100% 100%;
+    }
+    
+    .icon-wap-funds {
+    
+      background-image: url("../assets/images/mobile/navbar/home/fund.png");
+      background-size: 100% 100%;
+    }
+    
+    
+    .icon-wap-promos {
+     
+      background-image: url("../assets/images/mobile/navbar/home/promo.png");
+      background-size: 100% 100%;
+    }
+    .icon-wap-livechat {
+    
+      background-image: url("../assets/images/mobile/navbar/home/live_chat.png");
+      background-size: 100% 100%;
+    }
+    .icon-wap-account {
+    
+      background-image: url("../assets/images/mobile/navbar/home/my_account.png");
+      background-size: 100% 100%;
+    }
+  }
+}
+
+.icon-back {
+  display: inline-block;
+  width: 60px;
+  height: 42px;
+  background-image: url("../assets/images/mobile/back.png");
+  background-size: 100% 100%;
+}
+
+.icon-menu2 {
+  display: inline-block;
+  width: 69px;
+  height: 46px;
+  background-image: url("../assets/images/mobile/menu2.png");
+  background-size: 100% 100%;
+}
+
+.icon-wap-side-language {
+  display: inline-block;
+  width: 64px;
+  height: 65px;
+  &.en_US,
+  &.zh_CN,
+  &.ms_MS,
+  &.th_TH,
+  &.id_ID,
+  &.vi_VN {
+    background-image: url("../assets/images/mobile/malaysia flag.png");
+    background-size: 100% 100%;
+  }
+}
+
+.icon-wap-side-home {
+  display: inline-block;
+  width: 62px;
+  height: 60px;
+  background-image: url("../assets/images/mobile/home-1.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-home {
+  display: inline-block;
+  width: 62px;
+  height: 60px;
+  background-image: url("../assets/images/mobile/home-1.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-login {
+  display: inline-block;
+  width: 55px;
+  height: 59px;
+  background-image: url("../assets/images/mobile/login.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-sports {
+  display: inline-block;
+  width: 58px;
+  height: 57px;
+  background-image: url("../assets/images/mobile/sports.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-esports {
+  display: inline-block;
+  width: 69px;
+  height: 50px;
+  background-image: url("../assets/images/mobile/esport.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-casino {
+  display: inline-block;
+  width: 60px;
+  height: 59px;
+  background-image: url("../assets/images/mobile/casino.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-slots {
+  display: inline-block;
+  width: 66px;
+  height: 46px;
+  background-image: url("../assets/images/mobile/slots.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-poker {
+  display: inline-block;
+  width: 49px;
+  height: 61px;
+  background-image: url("../assets/images/mobile/poker.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-fishing {
+  display: inline-block;
+  width: 65px;
+  height: 45px;
+  background-image: url("../assets/images/mobile/fishing.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-promos {
+  display: inline-block;
+  width: 63px;
+  height: 64px;
+  background-image: url("../assets/images/mobile/promo-1.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-vip {
+  display: inline-block;
+  width: 58px;
+  height: 41px;
+  background-image: url("../assets/images/mobile/vip.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-download {
+  display: inline-block;
+  width: 54px;
+  height: 45px;
+  background-image: url("../assets/images/mobile/download.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-contact {
+  display: inline-block;
+  width: 69px;
+  height: 60px;
+  background-image: url("../assets/images/mobile/contact us.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-live-chat {
+  display: inline-block;
+  width: 57px;
+  height: 61px;
+  background-image: url("../assets/images/mobile/live chat-1.png");
+  background-size: 100% 100%;
+}
+.icon-wap-side-desktop {
+  display: inline-block;
+  width: 58px;
+  height: 49px;
+  background-image: url("../assets/images/mobile/desktop.png");
+  background-size: 100% 100%;
+}
+
+.icon-wap-deposit {
+  display: inline-block;
+  width: 70px;
+  height: 97px;
+  background-image: url("../assets/images/mobile/funds/deposit.png");
+  background-size: 100% 100%;
+}
+.icon-wap-history {
+  display: inline-block;
+  width: 79px;
+  height: 77px;
+  background-image: url("../assets/images/mobile/funds/history.png");
+  background-size: 100% 100%;
+}
+.icon-wap-transfer {
+  display: inline-block;
+  width: 86px;
+  height: 75px;
+  background-image: url("../assets/images/mobile/funds/transfer.png");
+  background-size: 100% 100%;
+}
+.icon-wap-withdraw {
+  display: inline-block;
+  width: 68px;
+  height: 88px;
+  background-image: url("../assets/images/mobile/funds/withdraw.png");
+  background-size: 100% 100%;
+}
+
+.icon-menu {
+  display: inline-block;
+  width: 69px;
+  height: 46px;
+  background: url(../assets/images/mobile/menu.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.icon-back2 {
+  display: inline-block;
+  width: 27px;
+  height: 58px;
+  background: url(../assets/images/mobile/return.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.icon-search {
+  display: inline-block;
+  width: 69px;
+  height: 72px;
+  background: url(../assets/images/mobile/search.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.icon-eyes {
+  display: inline-block;
+  width: 75px;
+  height: 62px;
+  background: url(../assets/images/mobile/eye-close.png) no-repeat;
+  background-size: 100% 100%;
+  &.on {
+    background: url(../assets/images/mobile/eye.png) no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+.icon-transfer {
+  display: inline-block;
+  width: 134px;
+  height: 52px;
+  background-image: url(.././assets/images/mobile/transfer.png);
+  background-size: 100% 100%;
+  &.on {
+    background-image: url(.././assets/images/mobile/transfer_on.png);
+  }
+}
+
+$landScapeProtraitRatio: 1.7777777; // 736/414
+html {
+  font-size: calc(100vw / 12.42);
+  background: #111111;
+  height: 100%;
+
+  * {
+    &[data-screen="web|pad"],
+    &[data-screen="web"],
+    &[data-screen="pad"] {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-aspect-ratio: "12/10") {
+  html {
+    font-size: 100vw / 12.42 / $landScapeProtraitRatio;
+  }
+}
+
+#root {
+  padding-top: 0;
+  .container {
+    width: 100%;
+  }
+
+  .msg-enter,
+  .msg-exit {
+    // left: 100%;
+    transform: translateX(100vw) translateX(-20px) translateZ(0);
+  }
+  .msg-enter-active,
+  .msg-exit-active {
+    // left: -100%;
+    transform: translateX(-100%) translateZ(0);
+    transition: transform 20s;
+    transition-timing-function: linear;
+  }
+
+  > div {
+    padding-top: 157px;
+    &[data-logined="true"] {
+      padding-bottom: 199px;
+    }
+    &[data-page="/casino"] {
+      .tool-bar {
+        .icon-logo {
+          background-image: url(../assets/images/logo_casino.png);
+        }
+        .content {
+          .login-btn {
+            > span {
+              &.btn-sign-up {
+                background: $casinoMain;
+              }
+            }
+          }
+          .restore-box {
+            .currency-count {
+              .currency {
+                color: $casinoMain;
+              }
+            }
+            > span i {
+              &.icon-reload {
+                background-image: url(../assets/images/mobile/funds/casino/refesh.png);
+              }
+              &.icon-restore {
+                background-image: url(../assets/images/mobile/funds/casino/restore.png);
+              }
+            }
+          }
+        }
+      }
+      .nav-bar{
+        .icon-hover-box{
+          &.on,&:hover{
+            .icon-wap-home { 
+             
+              background-image: url("../assets/images/mobile/navbar/casino/home.png");
+              background-size: 100% 100%;
+            }
+            
+            .icon-wap-funds {
+            
+              background-image: url("../assets/images/mobile/navbar/casino/fund.png");
+              background-size: 100% 100%;
+            }
+            
+            
+            .icon-wap-promos {
+             
+              background-image: url("../assets/images/mobile/navbar/casino/promo.png");
+              background-size: 100% 100%;
+            }
+            .icon-wap-livechat {
+            
+              background-image: url("../assets/images/mobile/navbar/casino/live_chat.png");
+              background-size: 100% 100%;
+            }
+            .icon-wap-account {
+            
+              background-image: url("../assets/images/mobile/navbar/casino/my_account.png");
+              background-size: 100% 100%;
+            }
+          }
+        }
+        
+        ul{
+          li{
+            &:hover,&.on{
+              color: $casinoMain;
+            }
+          }
+        }
+      }
+    }
+    &[data-page="/slots"] {
+      .tool-bar {
+        .icon-logo {
+          background-image: url(../assets/images/logo_slots.png);
+        }
+        .content {
+          .login-btn {
+            > span {
+              &.btn-sign-up {
+                background: $slotsMain;
+              }
+            }
+          }
+          .restore-box {
+            .currency-count {
+              .currency {
+                color: $slotsMain;
+              }
+            }
+            > span i {
+              &.icon-reload {
+                background-image: url(../assets/images/mobile/funds/slots/refesh.png);
+              }
+              &.icon-restore {
+                background-image: url(../assets/images/mobile/funds/slots/restore.png);
+              }
+            }
+          }
+        }
+      }
+
+      .nav-bar{
+        .icon-hover-box{
+          &.on,&:hover{
+            .icon-wap-home { 
+             
+              background-image: url("../assets/images/mobile/navbar/slots/home.png");
+              background-size: 100% 100%;
+            }
+             
+            .icon-wap-funds {
+            
+              background-image: url("../assets/images/mobile/navbar/slots/fund.png");
+              background-size: 100% 100%;
+            }
+            
+            
+            .icon-wap-promos {
+             
+              background-image: url("../assets/images/mobile/navbar/slots/promo.png");
+              background-size: 100% 100%;
+            }
+            .icon-wap-livechat {
+            
+              background-image: url("../assets/images/mobile/navbar/slots/live_chat.png");
+              background-size: 100% 100%;
+            }
+            .icon-wap-account {
+            
+              background-image: url("../assets/images/mobile/navbar/slots/my_account.png");
+              background-size: 100% 100%;
+            }
+          }
+        }
+        
+        ul{
+          li{
+            &:hover,&.on{
+              color: $slotsMain;
+            }
+          }
+        }
+      }
+    }
+
+    &[data-page*="/funds/"] {
+      padding-top: 657px;
+      background: #ffffff;
+    }
+  }
+  .tool-bar {
+    width: 100%;
+    height: 157px;
+    background: rgba(22, 22, 22, 1);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 71px;
+    padding-right: 69px;
+    justify-content: space-between;
+    z-index: 2;
+    .icon-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    > .icon-box {
+      i {
+        transition: background 0.3s;
+        cursor: pointer;
+      }
+    }
+    .content {
+      .login-btn {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 219px;
+        > span {
+          width: 279px;
+          height: 80px;
+          background: rgba(77, 77, 77, 1);
+          border-radius: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+           font-family: "Nunito-Bold";;
+          font-size: 42px;
+          color: rgba(233, 233, 233, 1);
+
+          &.btn-sign-up {
+            color: rgba(0, 0, 0, 1);
+            background: $homeMain;
+            margin-left: 20px;
+            transition: background 0.3s;
+          }
+        }
+      }
+
+      .restore-box {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 232px;
+        .currency-count {
+          display: flex;
+          align-items: center;
+          .currency {
+             font-family: "Nunito-Bold";;
+            font-size: 24px;
+            color: $homeMain;
+            transform: translateY(-4px);
+            transition: color 0.3s;
+          }
+
+          .count {
+             font-family: "Nunito-Bold";;
+            font-size: 42px;
+            color: rgba(255, 255, 255, 1);
+            margin-left: 14px;
+          }
+        }
+        > span {
+          cursor: pointer;
+
+          > i {
+            transition: background 0.3s;
+          }
+          &:nth-child(2) {
+            margin-left: 56px;
+            margin-right: 78px;
+          }
+          &:nth-child(3) {
+            padding-bottom: 8px;
+          }
+        }
+      }
+    }
+    &.funds {
+      height: 657px;
+      background: #4d4d4d;
+      padding: 0;
+      display: block;
+      .title-box {
+        padding-left: 82px;
+        padding-right: 69px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 153px;
+        border-bottom: 3px solid rgba(237, 237, 237, 0.07);
+        .icon-back {
+          cursor: pointer;
+          margin-right: 47px;
+        }
+        .left {
+          display: flex;
+          align-items: center;
+          font-size: 42px;
+          color: rgba(255, 255, 255, 1);
+          >span{
+            font-family: "Nunito-Bold";
+          }
+        }
+        .icon-menu {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .funds-com {
+    padding-left: 73px;
+    padding-right: 69px;
+    padding-top: 43px;
+    .main-wallet-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .group {
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: rgba(180, 180, 180, 1);
+        line-height: 48px;
+       
+        &:nth-child(1) {
+          transform: translateY(-6px);
+          >span{
+            font-family: "Nunito-Bold";
+          }
+        }
+        .icon-eyes {
+          cursor: pointer;
+          margin-left: 39px;
+        }
+        .icon-box {
+          width: 77px;
+          height: 77px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          &.icon-box-face {
+            margin-left: 32px;
+            position: relative;
+            .message-count {
+              position: absolute;
+              right: 0;
+              top: 0;
+              width: 36px;
+              height: 36px;
+              border-radius: 50%;
+              background: #ff0000;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 24px;
+              color: white;
+              transform: translate(30%, -30%);
+            }
+          }
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+    .currency-box {
+      display: flex;
+      align-items: center;
+      margin-top: -20px;
+      .currency {
+        font-size: 36px;
+        font-weight: 600;
+        color: rgba(255, 77, 0, 1);
+        margin-right: 22px;
+        transform: translateY(-12px);
+      }
+      .count {
+        font-size: 80px;
+        font-family: "Nunito-SemiBold";
+        color: rgba(255, 255, 255, 1);
+        width: 535px;
+      }
+      .icon-reload {
+        cursor: pointer;
+      }
+    }
+    .bottom-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 40px;
+      .restore-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+         font-family: "Nunito-Bold";;
+        color: rgba(255, 77, 0, 1);
+        width: 412px;
+        height: 129px;
+        border-radius: 129px;
+        background: #ffffff;
+        cursor: pointer;
+        >span{
+          font-family: "Nunito-Bold";
+        }
+        .icon-restore {
+          width: 84px;
+          height: 97px;
+          margin-right: 24px;
+        }
+      }
+      .transfer-group {
+        display: flex;
+        flex-direction: column;
+        // justify-content: flex-end;
+        align-items: flex-end;
+        font-size: 30px;
+        font-weight: 600;
+        color: rgba(180, 180, 180, 1);
+        line-height: 100%;
+        > i {
+          margin-top: 20px;
+          // width: 130px;
+          // height: 53px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .nav-bar {
+    width: 100%;
+    height: 212px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+   
+    ul {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      padding: 0 20px;
+      width: 1202px;
+      height: 212px;
+      background: #252628;
+      display: flex;
+      justify-content: space-around;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      li {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: 600;
+        color: rgba(161, 169, 187, 1);
+        transition: color 0.3s;
+        &.on {
+          pointer-events: none;
+        }
+        &.on,&:hover {
+          color: $homeMain;
+        }
+        .icon-box {
+          width: 83px;
+          height: 83px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 29px;
+          transform: translateY(6px);
+          >i{
+            transition: background 0.3s;
+          }
+        }
+        >span{
+          &:nth-child(2){
+            transform: translateY(-4px);
+          }
+        }
+      }
+      // display: flex;
+    }
+  }
+
+  .acct-bar {
+    width: 100%;
+    height: 210px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: #27282a;
+    overflow: hidden;
+    transition: height 0.5s;
+    .member-info {
+      position: relative;
+      padding-left: 54px;
+      padding-top: 38px;
+      width: 362px;
+      height: 210px;
+      display: flex;
+      flex-direction: column;
+      .name-box {
+        display: flex;
+        align-items: center;
+        .img-face {
+          width: 76px;
+          height: 76px;
+          display: flex;
+          margin-right: 20px;
+          img {
+            width: 76px;
+            height: 76px;
+            // transform: scale(1.05);
+            display: block;
+          }
+        }
+        .username {
+          display: inline-block;
+          font-size: 35px;
+          font-weight: 800;
+          color: rgba(255, 78, 0, 1);
+          font-family: "Nunito-Bold";
+        }
+      }
+
+      .level-box {
+        display: flex;
+        align-items: center;
+        margin-top: 3px;
+        .icon-level {
+          width: 80px;
+          height: 49px;
+          margin-right: 20px;
+        }
+        > div {
+           font-family: "Nunito-Bold";;
+          display: flex;
+          flex-direction: column;
+          line-height: 100%;
+          > span {
+            line-height: 35px;
+            &:nth-child(1) {
+              color: #a1aabc;
+              font-size: 18px;
+              margin-bottom: -5px;
+            }
+            &:nth-child(2) {
+              color: #657b4f;
+              font-size: 24px;
+            }
+          }
+        }
+      }
+      &::before {
+        content: "";
+        width: 2px;
+        height: 146px;
+        background: rgba(71, 71, 71, 1);
+        position: absolute;
+        right: 0;
+        top: 30px;
+      }
+    }
+    > ul {
+      height: 210px;
+      width: 878px;
+      display: flex;
+      align-items: center;
+      li {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        cursor: pointer;
+        .icon-box {
+          width: 86px;
+          height: 97px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 0;
+        }
+        > span {
+          font-size: 24px;
+          font-family: "Nunito-SemiBold";
+          color: rgba(161, 170, 188, 1);
+          line-height: 100%;
+          margin-top: 35px;
+        }
+      }
+    }
+  }
+
+  .side-menu-box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    display: flex;
+    justify-content: flex-end;
+    .side-menu {
+      width: 882px;
+      height: 100%;
+      background: #292b2e;
+
+      .icon-box {
+        width: 69px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .menu-btns {
+        height: 157px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 62px;
+        padding-right: 68px;
+        i {
+          cursor: pointer;
+        }
+      }
+      .side-menu-scroll-wrapper {
+        height: calc(100% - 157px);
+        overflow: auto;
+        ul {
+          padding-right: 68px;
+          li {
+            font-size: 36px;
+            color: rgba(161, 170, 188, 1);
+            cursor: pointer;
+            height: 172px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            border-bottom: 1px solid rgba(95, 99, 109, 0.4);
+            .icon-box {
+              margin-left: 47px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .mobile-register {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    overflow: auto;
+    .register-panel {
+      padding-top: 0;
+      height: auto;
+      .register-box {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        .title {
+          height: 157px;
+          font-size: 50px;
+          >span{
+            font-family: "Nunito-ExtraBold";
+          }
+          .icon-close3 {
+            right: 51px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+      }
+      .content {
+        min-height: 1709px;
+        padding-top: 138px;
+        .steps {
+          .step-bg {
+            margin-top: 5px;
+            width: 1035px;
+            height: 142px;
+            background-size: 100% 100%;
+            background-image: url(../assets/images/mobile/step1.png);
+            &[data-index="1"] {
+              background-size: 100% 100%;
+              background-image: url(../assets/images/mobile/step2.png);
+            }
+            &[data-index="2"] {
+              background-size: 100% 100%;
+              background-image: url(../assets/images/mobile/step3.png);
+            }
+          }
+          ul {
+            width: 880px;
+            margin-bottom: 40px;
+            li {
+              > span {
+                font-size: 35px;
+                font-weight: 400;
+                line-height: 100%;
+              }
+            }
+          }
+        }
+        .step-content {
+          padding-top: 0;
+          transition: height 0.3s;
+          &[data-index="0"] {
+            height: 2205px;
+          }
+          &[data-index="1"] {
+            height: 1574px;
+          }
+          &[data-index="2"] {
+            height: 1364px;
+          }
+          .input,
+          .btn-next {
+            width: 1105px;
+            height: 145px;
+            background: #e5e5e5;
+
+            margin-bottom: 82px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 29px;
+            &.btn-next {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 45px;
+              background: #ff4d00;
+              border-color: transparent;
+              margin-top: 132px;
+            }
+            // overflow: hidden;
+            > input {
+              border-radius: 29px;
+
+              border: 2px solid rgba(25, 25, 25, 0.2);
+
+              font-size: 45px;
+              color: rgba(1, 27, 67, 0.6);
+              padding: 0 49px;
+              @include placeHolder(rgba(1, 27, 67, 0.6), 45px);
+              &.short {
+                width: 732px;
+              }
+              &:focus {
+                background: #f1f1f1;
+                border: 2px solid #ff4d00;
+              }
+            }
+
+            > select {
+              border-radius: 29px;
+              border: 2px solid rgba(25, 25, 25, 0.2);
+              color: #000;
+              font-size: 45px;
+              padding: 0 22px;
+              &.phone {
+                width: 316px;
+                padding-left: 46px;
+                background-image: url(.././assets/images/mobile/select-arrow.png);
+                background-repeat: no-repeat;
+                background-size: 35px 18px;
+                background-position: 236px 65px;
+                
+              }
+              &.currency {
+                width: 732px;
+                padding-left: 46px;
+                background-image: url(.././assets/images/mobile/select-arrow.png);
+                background-repeat: no-repeat;
+                background-size: 35px 18px;
+                background-position: 654px 65px;
+              }
+            }
+
+            > .item-title {
+              width: 316px;
+              height: 100%;
+              border-radius: 29px;
+              font-size: 45px;
+              padding-left: 46px;
+            }
+          }
+
+          .text-p {
+            font-size: 35px;
+            line-height: 45px;
+          }
+
+          .member-benefits {
+            width: auto;
+            margin: 0 auto;
+            margin-top: 140px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .benefits-title {
+              font-size: 75px;
+            }
+            > ul {
+              font-size: 45px;
+              padding-top: 20px;
+              li {
+                line-height: 74px;
+              }
+            }
+
+            .text-p {
+              margin-top: 125px;
+            }
+          }
+          > div {
+            flex-direction: column;
+            top: 0;
+            height: 100%;
+            form {
+              width: 1105px;
+              margin: 0 auto;
+            }
+            &.step1-box {
+              padding-top: 134px;
+            }
+
+            &.step2-box {
+              padding-top: 134px;
+              .member-benefits {
+                margin-top: 0;
+                > .benefits-title,
+                > ul {
+                  display: none;
+                }
+                .text-p {
+                  text-align: center;
+                  margin-top: 0;
+                  width: 950px;
+                  font-size: 35px;
+                  line-height: 45px;
+                }
+              }
+
+              .btn-next {
+                margin-bottom: 71px;
+                // transform: translateY(-18px);
+              }
+            }
+
+            &.step3-box {
+              padding-top: 315px;
+              > div {
+                margin-top: 82px;
+                margin-bottom: 0;
+                > p {
+                  line-height: 50px;
+                  &:nth-child(1) {
+                    font-size: 65px;
+                  }
+                  &:nth-child(2) {
+                    font-size: 36px;
+                    margin-top: 10px;
+                  }
+                }
+              }
+              .btn-next {
+                margin-top: 150px;
+                margin-bottom: 69px;
+              }
+              .text-p{
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .mobile-footer {
+    background: #191919;
+    position: relative;
+    &[data-logined="true"] {
+    //  &::after{
+    //    content: '';
+    //    height: 199px;
+    //    display: block;
+    //  }
+    }
+    #footer {
+      .top-footer-box {
+        height: 306px;
+        padding-left: 71px;
+        padding-right: 69px;
+        padding-top: 58px;
+        .lan-list {
+          display: none;
+        }
+        .top {
+          .provider {
+            li {
+              &[data-type="text"],
+              &:nth-child(5) {
+                display: none;
+              }
+              &:last-child {
+                position: static;
+                transform: translateX(50px);
+              }
+              flex-direction: row;
+              align-items: center;
+              > div {
+                width: 100%;
+                font-size: 24px;
+                margin-bottom: 31px;
+                line-height: 100%;
+              }
+              > i {
+                &.icon-itechlab,
+                &.icon-youtube {
+                  position: static;
+                }
+                margin-bottom: 34px;
+              }
+              &:nth-child(4) {
+                width: 760px;
+                margin-right: 50px;
+                > i {
+                  &:nth-of-type(1) {
+                    margin-right: 61px;
+                  }
+                  &:nth-of-type(2) {
+                    margin-right: 50px;
+                  }
+                  &:nth-of-type(4) {
+                    margin-right: 90px;
+                  }
+                  &:nth-of-type(5) {
+                    margin-right: 87px;
+                  }
+                  &:nth-of-type(6) {
+                    margin-right: 87px;
+                  }
+                }
+              }
+
+              &:nth-child(6) {
+                width: 220px;
+                align-items: flex-start;
+                height: 120px;
+                margin-right: 0;
+              
+                .title{
+                  margin-bottom: 26px;
+                }
+                > i {
+                 
+                  &:nth-of-type(1) {
+                    margin-right: 68px;
+                  }
+                }
+              }
+            }
+          }
+
+          .copy-right-box {
+            position: absolute;
+            left: 69px;
+            top: 864px;
+            font-size: 20px;
+            .current-lan {
+              display: none;
+            }
+          }
+        }
+      }
+      .second-footer-box {
+        height: 334px;
+        padding-left: 72px;
+        padding-right: 70px;
+        padding-top: 60px;
+        > i {
+          margin-right: 0;
+          opacity: 0.4;
+        }
+        p {
+          font-size: 24px;
+          line-height: 30px;
+          color: rgba(80, 83, 91, 1);
+          width: 800px;
+          font-weight: 400;
+          display: none;
+          &[data-screen="mobile"] {
+            display: block !important;
+          }
+        }
+      }
+    }
+
+    .contact-box {
+      height: 344px;
+      background: #1d1e1f;
+      border-bottom: 1px solid rgba(95, 99, 109, 0.3);
+      padding-top: 18px;
+      .title {
+        font-family: "Nunito-Black";
+        font-size: 30px;
+        font-weight: 900;
+        color: rgba(161, 170, 188, 1);
+        line-height: 110px;
+        display: block;
+        padding-left: 70px;
+      }
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 25%;
+          cursor: pointer;
+          > span {
+            &:nth-of-type(2) {
+              font-size: 24px;
+              font-weight: 600;
+              color: rgba(162, 170, 189, 1);
+            }
+            &:nth-of-type(3) {
+              font-size: 30px;
+              // font-weight: 600;
+              color: rgba(255, 78, 0, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .submenu-box {
+    ul {
+      display: flex;
+      flex-direction: column;
+      li {
+        width: 218px;
+        height: 139px;
+        background: #292b2e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        font-size: 36px;
+        font-weight: 600;
+        color: rgba(161, 170, 188, 1);
+        border-radius: 9px;
+        cursor: pointer;
+        transition: color 0.3s, background 0.3s;
+        >span{
+          font-family: "Nunito-SemiBold";
+        }
+        &.on {
+          pointer-events: none;
+        }
+
+        &.on,
+        &:hover {
+          background: $homeMain;
+          color: black;
+          > span {
+            font-family: "Nunito-Black";
+          }
+        }
+        &:not(:last-child) {
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+
+  .notice {
+    height: 77px;
+    font-size: 30px;
+    width: 100%;
+    overflow: hidden;
+    .container {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 57px;
+        height: 33px;
+        top: 50%;
+        left: 100px;
+        transform: translateY(-50%);
+        display: inline-block;
+        background-image: url("../assets/images/mobile/lound speaker.png");
+        background-size: 100% 100%;
+      }
+      .content {
+        margin-left: 200px;
+      }
+    }
+  }
+
+  .slider {
+    .pagination {
+      &.default {
+        li {
+          width: 21px;
+          height: 21px;
+          flex: 0 0 auto;
+          background-color: #787e8c;
+          &:not(:last-child) {
+            margin-right: 18px;
+          }
+          &.on,
+          &:hover {
+            background: #ff4e00;
+          }
+        }
+      }
+    }
+  }
+
+  .turnover-top-box {
+    width: 1163px;
+    height: 98px;
+    background: $homeMain;
+    border-radius: 13px;
+    position: relative;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 603px;
+    z-index: 3;
+    > ul {
+      padding-left: 41px;
+      padding-right: 45px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      display: flex;
+      align-items: center;
+      &.turnover-nav {
+        justify-content: space-between;
+        li {
+          // flex: 0 0 auto;
+          white-space: nowrap;
+          > span {
+            font-size: 42px;
+          }
+          > i {
+            margin-left: 42px;
+          }
+          &:nth-child(1) {
+            display: flex;
+            justify-content: flex-start;
+          }
+          &:nth-child(2) {
+            // flex: 1;
+            // width: 580px;
+            display: flex;
+            justify-content: flex-end;
+          }
+        }
+      }
+      li {
+      
+        font-size: 42px;
+        justify-content: space-between;
+        color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        >span{
+          font-family: "Nunito-Bold";;
+        }
+      }
+    }
+  }
+
+  .wap-page {
+    position: relative;
+    width: 100%;
+    // overflow-x: hidden;
+    min-height: 100vh;
+    > div {
+     
+      position: relative;
+      &.slider-fade-next-enter,&.slider-fade-next-exit{
+        position: absolute;
+      }
+      width: 100%;
+      left: 0;
+      top: 0;
+
+
+      .home-page {
+        .banner {
+          height: 410px;
+          background: #0b0b0b;
+          .slider {
+            .slider-container {
+              > div {
+                > div {
+                  width: 100%;
+                  img {
+                    display: block;
+                    margin: 0 auto;
+                    height: 100%;
+                    width: auto;
+                  }
+                }
+              }
+            }
+            .pagination {
+              bottom: 24px;
+            }
+          }
+        }
+
+        .item-title {
+          font-size: 30px;
+          font-weight: 900;
+          line-height: 100%;
+        }
+
+        .sports-box {
+          padding-left: 30px;
+          padding-top: 60px;
+          background: #111111;
+          height: 1174px;
+          display: flex;
+          .group {
+            width: 100%;
+            padding-left: 41px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            .item-title {
+              color: rgba(0, 161, 255, 1);
+              margin-bottom: 25px;
+              padding-left: 0;
+              font-family: "Nunito-Black";
+            }
+            .up-events {
+              margin-left: 0;
+              width: 100%;
+              padding-left: 21px;
+              margin-top: 16px;
+              .slider-box {
+                &[data-screen="mobile"] {
+                  display: flex;
+                  margin-top: 30px;
+                  height: 481px;
+                  > .slider {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 0;
+
+                    overflow: visible;
+                    // left: 600px;
+                    .slider-container {
+                      transform: translateX(-50%) translateX(340px);
+                      pointer-events: none;
+                      > div {
+                        pointer-events: auto;
+                        position: absolute;
+                        transition: transform 300ms, opacity 300ms;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        min-width: 0;
+                        width: 711px;
+                        height: 481px;
+                        padding: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        opacity: 0.5;
+
+                        &[data-active="true"] {
+                          opacity: 1;
+                        }
+                        &[data-active="false"] {
+                          cursor: pointer;
+                          > * {
+                            pointer-events: none;
+                          }
+                        }
+                        .item-match {
+                          transform: scale(1.78);
+                        }
+                      }
+                    }
+
+                    .pagination {
+                      // display: none;
+                      width: auto;
+                      transform: translate(0, 0);
+                      left: auto;
+                      bottom: auto;
+                      top: -80px;
+                      right: 70px;
+                    }
+                  }
+                }
+              }
+            }
+
+            .sports-games {
+              // margin-left: 15px;
+              padding-left: 21px;
+              margin-bottom: 70px;
+              .sports-games-slider-box {
+                &[data-screen="web|pad"] {
+                  display: none;
+                }
+                &[data-screen="mobile"] {
+                  display: flex;
+                  height: 357px;
+                  .slider {
+                    height: 100%;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 0;
+
+                    overflow: visible;
+                    .slider-container {
+                      transform: translateX(-50%) translateX(340px);
+                      pointer-events: none;
+                      > div {
+                        pointer-events: auto;
+                        position: absolute;
+                        transition: transform 300ms, opacity 300ms;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        min-width: 0;
+                        width: 696px;
+                        height: 357px;
+                        border-radius: 10px;
+
+                        padding: 0;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        opacity: 0.5;
+                        &[data-index="0"] {
+                          background-image: url(../assets/images/homepage/section/mobile/banner1.png);
+                          background-size: 100% 100%;
+                        }
+                        &[data-index="1"] {
+                          background-image: url(../assets/images/homepage/section/mobile/banner2.png);
+                          background-size: 100% 100%;
+                        }
+                        &[data-index="2"] {
+                          background-image: url(../assets/images/homepage/section/mobile/banner3.png);
+                          background-size: 100% 100%;
+                        }
+
+                        &[data-active="true"] {
+                          opacity: 1;
+                        }
+                        &[data-active="false"] {
+                          cursor: pointer;
+                          > * {
+                            pointer-events: none;
+                          }
+                        }
+
+                        .item-content {
+                          .icon-box {
+                            height: 115px;
+                            display: flex;
+                            align-items: center;
+                          }
+                          p {
+                            font-size: 28px;
+                            color: rgba(255, 255, 255, 1);
+                            width: 280px;
+                            line-height: 32px;
+                            br {
+                              display: none;
+                            }
+                          }
+                          .btn {
+                            display: none;
+                          }
+                        }
+                      }
+                    }
+
+                    .pagination {
+                      // display: none;
+                      width: auto;
+                      transform: translate(0, 0);
+                      left: auto;
+                      bottom: auto;
+                      top: -50px;
+                      right: 70px;
+                      li {
+                        > * {
+                          display: none;
+                        }
+                        width: 21px;
+                        height: 21px;
+                        flex: 0 0 auto;
+                        border-radius: 50%;
+                        background: #787e8c;
+                        &:not(:last-child) {
+                          margin-right: 18px;
+                        }
+                        &.on,
+                        &:hover {
+                          background: #ff4e00;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .dropping-hot {
+          padding-left: 71px;
+          height: 666px;
+          background: #1e1e1e;
+          .item-title {
+            padding-top: 57px;
+            padding-bottom: 66px;
+          }
+
+          .game-content-container{
+            position: relative;
+            width: 100%;
+            .game-content{
+              position: absolute;
+              left: 0;
+              top: 0;
+            }
+          }
+
+          .group {
+            > .slider-box {
+              display: none;
+            }
+            .games-list {
+              width: 100%;
+              .nav-tabs {
+                height: 100px;
+                margin-bottom: 0;
+                &::before {
+                  width: 1183px;
+                  height: 3px;
+                }
+                li {
+                  height: 92px;
+                  width: 349px;
+                  font-size: 43px;
+                  padding: 0;
+                  border-top-left-radius: 10px;
+                  border-top-right-radius: 10px;
+                  > span {
+                    &:nth-child(2) {
+                      display: none;
+                    }
+                    &[data-screen="mobile"] {
+                      display: inline-block;
+                    }
+                  }
+                }
+
+                .more-games {
+                  &[data-screen="mobile"] {
+                    display: block;
+                    position: absolute;
+                    right: 71px;
+                    top: -90px;
+                    > span {
+                      &:nth-child(1) {
+                        font-size: 30px;
+                        color: rgba(120, 126, 140, 1);
+                      }
+                      &:nth-child(2) {
+                        font-size: 30px;
+                        color: rgba(120, 126, 140, 1);
+                      }
+                    }
+                  }
+                }
+              }
+              .game-content {
+                overflow: auto;
+                flex-wrap: nowrap;
+                padding-top: 61px;
+                li {
+                  &:not(:nth-child(5n)),
+                  &:nth-child(5n) {
+                    margin-right: 23px;
+                    flex: 0 0 auto;
+                  }
+                  width: 342px;
+                  height: 299px;
+                  .img-box {
+                    width: 342px;
+                    height: 221px;
+                    .hover-box {
+                      > span {
+                        width: 170px;
+                        height: 51px;
+                        font-size: 24px;
+                      }
+                    }
+                  }
+                  > p {
+                    height: 78px;
+                    font-size: 25px;
+                    padding-left: 52px;
+                    &::before {
+                      height: 6px;
+                    }
+                    &::after {
+                      height: 8px;
+                      bottom: 4px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .donot-miss {
+          padding-left: 71px;
+          height: 555px;
+          background: #111111;
+          .item-title {
+            padding-top: 57px;
+            padding-bottom: 66px;
+          }
+
+          .more-games {
+            display: block;
+            position: absolute;
+            right: 71px;
+            top: 50px;
+            font-size: 30px;
+            color: #787e8b;
+            cursor: pointer;
+            &:hover {
+              > span {
+                &:nth-child(1) {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+
+          .donot-miss-list {
+            overflow-x: scroll;
+
+            li {
+              flex: 1 0 auto;
+              width: 708px;
+              height: 350px;
+              margin-bottom: 10px;
+              padding-left: 330px;
+              align-items: flex-start;
+              .title {
+                font-size: 32px;
+                margin-top: 20px;
+              }
+              .content {
+                text-align: left;
+                font-size: 28px;
+                line-height: 30px;
+                width: 350px;
+                br {
+                  display: none;
+                }
+              }
+              &:nth-child(1) {
+                background-image: url(../assets/images//homepage/donotmiss/pad/1_.png);
+                .content {
+                  width: 335px;
+                }
+              }
+              &:nth-child(2) {
+                padding-left: 380px;
+                background-image: url(../assets/images//homepage/donotmiss/pad/2_.png);
+                .content {
+                  width: 278px;
+                }
+              }
+              &:nth-child(2) {
+                padding-left: 380px;
+                background-image: url(../assets/images//homepage/donotmiss/pad/2_.png);
+                .content {
+                  width: 278px;
+                }
+              }
+              &:nth-child(3) {
+                background-image: url(../assets/images//homepage/donotmiss/pad/3_.png);
+              }
+              &:nth-child(4) {
+                background-image: url(../assets/images//homepage/donotmiss/pad/4_.png);
+              }
+              cursor: pointer;
+              &:not(:last-child) {
+                margin-right: 37px;
+              }
+              .bottom-box{
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                overflow: hidden;
+              }
+              .bottom {
+                height: 12px;
+                overflow: hidden;
+                transform: translateY(0);
+                >span{
+                  display: none;
+                }
+                &::before {
+                  height: 7px;
+                  border-bottom-left-radius: 10px;
+                  border-bottom-right-radius: 10px;
+                }
+
+                &::after {
+                  height: 9px;
+                  bottom: 4px;
+                }
+              }
+              &:hover {
+                .hover-box {
+                  transform: rotateX(90deg);
+                }
+                .bottom {
+                  transform: translateY(0);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .download-page {
+        padding-top: 6px;
+        .download-panel {
+          background: #111111;
+          height: auto;
+          .container {
+            padding: 0;
+            justify-content: flex-start;
+            .download-list {
+              width: 1140px;
+              margin: 0 auto;
+              padding-top: 131px;
+              padding-bottom: 140px;
+              .download-nav {
+                width: 100%;
+                border-radius: 0;
+                height: 103px;
+                background: transparent;
+                position: relative;
+                overflow: visible;
+                li {
+                  height: 90px;
+                  width: 543px;
+                  background: #1d1d1d;
+                  margin: 0 7.5px;
+                  border-top-left-radius: 9px;
+                  border-top-right-radius: 9px;
+                  border: 1px solid rgba(64, 68, 77, 1);
+                  border-bottom: none;
+                  > span {
+                    font-size: 43px;
+                    margin-left: 34px;
+                  }
+                  > i {
+                    opacity: 0.5;
+                  }
+                  &.on,
+                  &:hover {
+                    border: 1px solid #ff4e00;
+                    background: #ff4e00;
+                    > i {
+                      opacity: 1;
+                    }
+                  }
+                }
+
+                &::before {
+                  content: "";
+                  width: 1181px;
+                  height: 3px;
+                  position: absolute;
+                  bottom: 0;
+                  left: 0;
+                  background: #292929;
+                }
+              }
+
+              .download-items {
+                padding-top: 70px;
+                .download-item {
+                  width: 553px;
+                  height: 500px;
+                  margin-right: 0;
+                  margin-bottom: 29px;
+                  overflow: hidden;
+                  &:not(:nth-child(2n)) {
+                    margin-right: 29px;
+                  }
+                  .img {
+                    height: 315px;
+                    img {
+                      width: 100% !important;
+                      height: 100% !important;
+                      &[data-screen="web|pad"] {
+                        display: none;
+                      }
+                      &[data-screen="mobile"] {
+                        display: block;
+                      }
+                    }
+                  }
+                  .other {
+                    height: 185px;
+                    .tools {
+                      height: 85px;
+                      > span {
+                        font-size: 40px;
+                        &:nth-child(2) {
+                          .qr-box {
+                            height: 315px;
+                            top: -315px;
+                            img {
+                              width: 259px;
+                              height: 259px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                    > span {
+                      height: 100px;
+                      font-size: 45px;
+                      padding-bottom: 5px;
+                      font-family: "Nunito-SemiBold";
+                      &::before {
+                        height: 8px;
+                      }
+                      &::after {
+                        height: 10px;
+                        bottom: 4px;
+                        width: 173px;
+                        left: 187px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .promos-page {
+        .promos-box-container {
+          margin-top: 8px;
+          margin-bottom: 8px;
+          background: #1e1e1e;
+          // height: 500px;
+          .promos-panel {
+            padding-top: 0;
+            width: 1080px;
+            margin: 0 auto;
+            padding-top: 120px;
+            .container {
+              padding: 0;
+              .promos-nav {
+                display: flex;
+                overflow: auto;
+                width: calc(100vw - 61px);
+                height: 103px;
+                border-bottom: 1px solid #353535;
+                margin-bottom: 76px;
+                li {
+                  flex: 0 0 auto;
+                  transition: color 0.3s, background 0.3s, border 0.3s;
+                  &.on,
+                  &:hover {
+                    border: 2px solid #ff4e00;
+                    background: #ff4e00;
+                    .group {
+                      .name {
+                        font-family: "Nunito-SemiBold";
+                        color: rgba(255, 255, 255, 1);
+                      }
+                    }
+                  }
+                  .group {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .name {
+                      text-transform: uppercase;
+                      font-size: 43px;
+                      font-family: "Nunito-SemiBold";
+                      color: rgba(255, 255, 255, 0.25);
+                    }
+                    .count,
+                    .new {
+                      display: none;
+                    }
+                  }
+                  margin: 0 11px;
+                  height: 90px;
+                  width: 349px;
+                  background: #1d1d1d;
+                  border-top-left-radius: 9px;
+                  border-top-right-radius: 9px;
+                  border: 2px solid rgba(64, 68, 77, 1);
+                  border-bottom: none;
+                }
+              }
+              .promos-box {
+                width: 100%;
+                .promos-list {
+                  padding-bottom: 90px;
+                  li {
+                    margin-right: 0;
+                    width: 100%;
+                    margin-bottom: 0;
+                    position: relative;
+                    overflow: hidden;
+                    &:not(:last-child) {
+                      margin-bottom: 24px;
+                    }
+
+                    height: 300px;
+                    display: flex;
+                    flex-direction: row;
+                    .img {
+                      left: 0;
+                      top: 0;
+                      position: absolute;
+                      width: 370px;
+                      height: 100%;
+                      overflow: hidden;
+                      img {
+                        height: 100%;
+                        width: auto;
+                        margin: 0 auto;
+                        &[data-screen="web|pad"] {
+                          display: none;
+                        }
+                        &[data-screen="mobile"] {
+                          display: block;
+                        }
+                      }
+                    }
+
+                    .bottom-box {
+                      width: 100%;
+                      padding-left: 424px;
+                      padding-right: 0;
+                      position: relative;
+
+                      height: 100%;
+                      .line-box {
+                        .line1 {
+                          height: 6px;
+                          bottom: 0;
+                          top: auto;
+                          width: 100%;
+                        }
+                        .line2 {
+                          width: 350px;
+                          top: auto;
+                          height: 8px;
+                          bottom: 4px;
+                          transform: translateX(-50%) perspective(0.5em)
+                            rotateX(8deg);
+                        }
+                      }
+                      .text-box {
+                        width: 100%;
+                        height: 210px;
+                        padding-top: 33px;
+                        .title {
+                          font-size: 40px;
+                        }
+                        .content {
+                          padding-top: 24px;
+                          font-size: 24px;
+                          line-height: 25px;
+                          width: 600px;
+                        }
+                      }
+                      .tools {
+                        > span {
+                          width: 153px;
+                          height: 43px;
+                          border-radius: 8px 8px 8px 8px;
+                          font-size: 25px;
+                          margin-right: 19px;
+                          &.btn-apply {
+                            width: 167px;
+                          }
+                        }
+                      }
+                      .time-box {
+                        position: absolute;
+                        display: flex;
+                        flex-direction: column;
+                        left: 802px;
+                        bottom: 45px;
+                        > span {
+                          font-size: 24px;
+                          line-height: 26px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .casino-page {
+        .acct-bar {
+          .icon-wap-deposit {
+            background-image: url("../assets/images/mobile/funds/casino/deposit.png");
+            background-size: 100% 100%;
+          }
+          .icon-wap-history {
+            background-image: url("../assets/images/mobile/funds/casino/history.png");
+            background-size: 100% 100%;
+          }
+          .icon-wap-transfer {
+            background-image: url("../assets/images/mobile/funds/casino/transfer.png");
+            background-size: 100% 100%;
+          }
+          .icon-wap-withdraw {
+            background-image: url("../assets/images/mobile/funds/casino/withdraw.png");
+            background-size: 100% 100%;
+          }
+          .member-info {
+            .name-box {
+              .username {
+                color: $casinoMain;
+              }
+            }
+          }
+        }
+        .submenu-box {
+          ul {
+            li {
+              &.on,
+              &:hover {
+                background: $casinoMain;
+              }
+            }
+          }
+        }
+
+        .casino-box-container {
+          padding-left: 30px;
+          padding-top: 72px;
+          display: flex;
+          padding-bottom: 90px;
+          .casino-list-box {
+            margin-left: 51px;
+
+            .item-title {
+              font-size: 30px;
+              color: $casinoMain;
+              line-height: 100%;
+              font-family: "Nunito-Black";
+              display: block;
+              margin-top: 10px;
+            }
+            ul {
+              display: flex;
+              flex-wrap: wrap;
+              padding-top: 22px;
+              width: 913px;
+              li {
+                width: 446px;
+                height: 308px;
+                overflow: hidden;
+                border-radius: 10px;
+                margin-bottom: 26px;
+                position: relative;
+
+                cursor: pointer;
+                > p {
+                  position: absolute;
+                  left: 560px;
+                  bottom: 70px;
+                  width: 290px;
+                  height: 89px;
+                  font-size: 28px;
+                  font-weight: 400;
+                  color: rgba(255, 255, 255, 1);
+                  line-height: 32px;
+                }
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+                &:nth-child(1) {
+                  width: 913px;
+                }
+                // margin-right: 20px;
+                &:nth-child(2n) {
+                  margin-right: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .slots-page {
+        .acct-bar {
+          .icon-wap-deposit {
+            background-image: url("../assets/images/mobile/funds/slots/deposit.png");
+            background-size: 100% 100%;
+          }
+          .icon-wap-history {
+            background-image: url("../assets/images/mobile/funds/slots/history.png");
+            background-size: 100% 100%;
+          }
+          .icon-wap-transfer {
+            background-image: url("../assets/images/mobile/funds/slots/transfer.png");
+            background-size: 100% 100%;
+          }
+          .icon-wap-withdraw {
+            background-image: url("../assets/images/mobile/funds/slots/withdraw.png");
+            background-size: 100% 100%;
+          }
+          .member-info {
+            .name-box {
+              .username {
+                color: $slotsMain;
+              }
+            }
+          }
+        }
+        .submenu-box {
+          ul {
+            li {
+              &.on,
+              &:hover {
+                background: $slotsMain;
+              }
+            }
+          }
+        }
+
+        .slots-box-container {
+          position: relative;
+          min-height: 2241px;
+        
+          .brand-page {
+            display: flex;
+            padding-left: 30px;
+            padding-top: 72px;
+            padding-bottom: 90px;
+            .slots-list-box {
+              margin-left: 51px;
+
+              .item-title {
+                font-size: 30px;
+                font-weight: 900;
+                color: $slotsMain;
+                line-height: 100%;
+                font-family: "Nunito-Black";
+                display: block;
+                margin-top: 10px;
+              }
+              ul {
+                display: flex;
+                flex-wrap: wrap;
+                padding-top: 22px;
+                width: 913px;
+                li {
+                  width: 446px;
+                  height: 308px;
+                  overflow: hidden;
+                  border-radius: 10px;
+                  margin-bottom: 26px;
+                  position: relative;
+
+                  cursor: pointer;
+                  > p {
+                    position: absolute;
+                    left: 560px;
+                    bottom: 70px;
+                    width: 290px;
+                    height: 89px;
+                    font-size: 28px;
+                    font-weight: 400;
+                    color: rgba(255, 255, 255, 1);
+                    line-height: 32px;
+                  }
+                  img {
+                    width: 100%;
+                    height: 100%;
+                  }
+                  // &:nth-child(1) {
+                  //   width: 913px;
+                  // }
+                  &:not(:nth-child(2n)) {
+                    margin-right: 20px;
+                  }
+                }
+              }
+            }
+          }
+          .gamelist-page {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            .tools-box {
+              height: 237px;
+              background: rgba(25, 25, 25, 1);
+              padding-left: 88px;
+              display: flex;
+              align-items: center;
+              padding-top: 84px;
+              padding-bottom: 56px;
+              padding-right: 84px;
+              justify-content: space-between;
+              .btn-box {
+                display: flex;
+                align-items: center;
+              }
+              span {
+                font-size: 40px;
+                 font-family: "Nunito-Bold";;
+                color: rgba(154, 163, 180, 1);
+              }
+
+              .icon-box {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .icon-back2 {
+                  cursor: pointer;
+                }
+                &:nth-child(2) {
+                  margin-left: 46px;
+                  margin-right: 46px;
+                }
+              }
+
+              .input-box {
+                width: 537px;
+                height: 97px;
+                background: rgba(61, 65, 69, 0.5);
+                border: 1px solid rgba(64, 67, 77, 1);
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                padding-left: 59px;
+                position: relative;
+                .icon-search {
+                  cursor: pointer;
+                }
+                input {
+                  width: 385px;
+                  border: none;
+                  background: transparent;
+                  color: rgba(161, 169, 189, 0.6);
+                  font-size: 43px;
+                  @include placeHolder(rgba(161, 169, 189, 0.6), 43px);
+                 
+                }
+              }
+            }
+
+            .slots-games-bottom {
+              padding-top: 119px;
+              background: #1e1e1e;
+              .type-nav-box {
+                .search-box {
+                  display: none;
+                }
+                .type-list {
+                  width: 1080px;
+                  margin: 0 auto;
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-between;
+                  position: relative;
+                  &::before {
+                    content: "";
+                    width: 1181px;
+                    height: 3px;
+                    background: #353535;
+                    top: 96px;
+                    left: -12px;
+                    position: absolute;
+                  }
+                  &::after {
+                    content: "";
+                    width: 1181px;
+                    height: 3px;
+                    background: #353535;
+                    top: 220px;
+                    left: -12px;
+                    position: absolute;
+                  }
+                  li {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex: 0 0 auto;
+                    transition: color 0.3s, background 0.3s, border 0.3s;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    margin-bottom: 33px;
+                    &.on {
+                      pointer-events: none;
+                    }
+                    &.on,
+                    &:hover {
+                      border: 2px solid $slotsMain;
+                      background: $slotsMain;
+                      color: rgba(255, 255, 255, 1);
+                      border-bottom: none;
+                    }
+                    font-size: 43px;
+                     font-family: "Nunito-Bold";;
+                    color: rgba(255, 255, 255, 0.25);
+
+                    height: 90px;
+                    width: 349px;
+                    background: #1d1d1d;
+                    border-top-left-radius: 9px;
+                    border-top-right-radius: 9px;
+                    border: 2px solid rgba(64, 68, 77, 1);
+                    border-bottom: none;
+                  }
+                }
+              }
+              .type-game-list-box {
+                .game-content {
+                  width: 1080px;
+                  margin: 0 auto;
+                  padding-top: 45px;
+                  li {
+                    margin-bottom: 27px;
+                    &:nth-child(3n) {
+                      margin-right: 0;
+                    }
+                    &:not(:nth-child(3n)) {
+                      margin-right: 26px;
+                      flex: 0 0 auto;
+                    }
+                    width: 342px;
+                    height: 299px;
+                    .img-box {
+                      width: 342px;
+                      height: 221px;
+                      .hover-box {
+                        > span {
+                          width: 170px;
+                          height: 51px;
+                          font-size: 24px;
+                        }
+                      }
+                    }
+                    > p {
+                      height: 78px;
+                      font-size: 25px;
+                      &::before {
+                        height: 6px;
+                      }
+                      &::after {
+                        height: 8px;
+                        bottom: 4px;
+                      }
+                    }
+                  }
+                }
+                .more-games {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .transfer-page {
+        background: white;
+        padding-bottom: 223px;
+        // padding-top: 146px;
+        .turnover-panel {
+          .show-item-box {
+            width: 1107px;
+            margin: 0 auto;
+            .balance-show-box {
+              padding-top: 103px;
+            }
+
+            .turnover-show-box {
+              padding-top: 78px;
+              .total-box {
+                width: 553px;
+                height: 76px;
+                background: #eaeaea;
+                border-radius: 10px;
+                font-size: 42px;
+                display: flex;
+                align-items: center;
+                padding-left: 55px;
+                margin-bottom: 19px;
+                margin-left: 555px;
+                > div {
+                  display: flex;
+                  align-items: center;
+                  padding-left: 45px;
+                  > span {
+                    font-family: "Nunito-ExtraBold";
+                  }
+                  .icon-box {
+                    display: flex;
+                    align-items: center;
+                    .icon-reload {
+                      width: 31px;
+                      height: 31px;
+                      margin-left: 39px;
+                      cursor: pointer;
+                    }
+                  }
+                }
+              }
+            }
+
+            .turnover-content {
+              > div {
+                margin-bottom: 90px;
+                .title {
+                  font-size: 42px;
+                  
+                  color: rgba(255, 77, 0, 1);
+                  border-bottom: 1px solid rgba(203, 203, 203, 1);
+                  padding-left: 16px;
+                  line-height: 100%;
+                  padding-bottom: 30px;
+                  >span{
+                    font-family: "Nunito-Bold";
+                  }
+                }
+                > ul {
+                  padding-top: 10px;
+                  li {
+                    line-height: 95px;
+                    padding: 0 16px;
+                    font-size: 42px;
+                    font-weight: 400;
+                    color: rgba(0, 0, 0, 1);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .title-item {
+          display: block;
+          padding-left: 82px;
+          line-height: 100%;
+          padding-bottom: 39px;
+          font-size: 42px;
+           font-family: "Nunito-Bold";;
+          color: rgba(77, 77, 77, 1);
+          border-bottom: 3px solid rgba(237, 237, 237, 1);
+        }
+
+        .center-box {
+          width: 1084px;
+          margin: 0 auto;
+        }
+
+        .current-select {
+          height: 98px;
+          border-radius: 13px;
+          background: #f3f2f2;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-left: 50px;
+          padding-right: 55px;
+          font-size: 42px;
+          font-weight: 400;
+          transition: color 0.3s;
+          color: #8f8f8f;
+          &.on{
+            color: rgba(47, 47, 47, 1);
+          }
+          cursor: pointer;
+          position: relative;
+          .group {
+            .icon-box {
+              margin-left: 44px;
+              i {
+                width: 37px;
+                height: 23px;
+                background-image: url(.././assets/images/mobile/arrow.png);
+                background-size: 100% 100%;
+              }
+            }
+          }
+          .item-list-box {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 98px;
+            z-index: 1;
+            border-radius: 13px;
+            li {
+              height: 98px;
+              // border-radius: 13px;
+              background: #f3f2f2;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding-left: 50px;
+              &.on {
+                color: $homeMain;
+              }
+            }
+          }
+        }
+
+        .input-box {
+          height: 98px;
+          border-radius: 13px;
+          background: #e4e4e4;
+          margin-top: 17px;
+          input {
+            padding-left: 50px;
+            padding-right: 55px;
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: transparent;
+            font-size: 42px;
+            font-weight: 400;
+            color: rgba(47, 47, 47, 1);
+            &.disabled{
+              color: rgba(47, 47, 47, 1);
+            }
+          }
+        }
+
+        .transfer-select-item {
+          &:nth-child(2) {
+            margin-top: 146px;
+          }
+          &:nth-child(4) {
+            margin-bottom: 44px;
+            .transfer-select {
+              .current-select {
+                background: transparent;
+              }
+            }
+          }
+
+          &.transfer-btn-box {
+            padding-top: 55px;
+            padding-bottom: 38px;
+            .center-box {
+              padding-left: 80px;
+            }
+          }
+
+          &.group-code {
+            margin-bottom: 53px;
+            .group {
+              font-size: 36px;
+              font-weight: 400;
+              color: rgba(255, 77, 0, 1);
+              padding-left: 49px;
+              padding-right: 33px;
+              display: flex;
+              justify-content: space-between;
+              line-height: 100%;
+              margin-bottom: 17px;
+              > span {
+                &:nth-of-type(2) {
+                  cursor: pointer;
+                  font-size: 36px;
+                  font-weight: 400;
+                  text-decoration: underline;
+                  color: rgba(0, 143, 255, 1);
+                }
+              }
+            }
+          }
+
+          &.group-amount {
+            padding-top: 50px;
+            .input-box {
+              background: transparent;
+              margin-top: 48px;
+              position: relative;
+              input {
+                border-radius: 13px;
+                border: forcePX(1px) solid #f3f2f2;
+                transition: border 0.3s;
+                &:focus {
+                  border: forcePX(1px) solid $homeMain;
+                }
+              }
+
+              .btn-allin {
+                width: 332px;
+                height: 98px;
+                background: rgba(255, 77, 0, 1);
+                border-radius: 13px;
+                position: absolute;
+                right: 0;
+                top: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 42px;
+                font-weight: 800;
+                color: rgba(255, 255, 255, 1);
+                cursor: pointer;
+              }
+            }
+
+            .btns-tools {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-top: 125px;
+              > span {
+                cursor: pointer;
+                width: 523px;
+                height: 98px;
+                background: rgba(205, 205, 205, 1);
+                border-radius: 13px;
+
+                font-size: 42px;
+                font-weight: 800;
+                color: rgba(255, 255, 255, 1);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &.btn-submit {
+                  background: $homeMain;
+                }
+              }
+            }
+          }
+        }
+
+        .transfer-select {
+          .type-list {
+            padding-top: 55px;
+            ul {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              li {
+                width: 256px;
+                height: 110px;
+                border-radius: 55px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: background 0.3s;
+                font-size: 30px;
+                font-weight: 400;
+                color: rgba(0, 0, 0, 1);
+                &:nth-child(5) {
+                  .icon-box {
+                    transform: translateY(-10px);
+                  }
+                }
+                .icon-box {
+                  width: 104px;
+                  height: 100%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-right: 14px;
+                  > i {
+                    transform: scale(2.32);
+                  }
+                }
+                margin-bottom: 58px;
+                &:not(:nth-child(4n)) {
+                  margin-right: 18px;
+                }
+                > span {
+                  &:nth-child(2) {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100px;
+                    line-height: 28px;
+                  }
+                }
+                &.on {
+                  pointer-events: none;
+                }
+                &.on,
+                &:hover {
+                  background: #ebebeb;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
